@@ -1,7 +1,10 @@
+import Meta from "../components/Meta";
+
 const about = () => {
   return (
     <div>
-      <h1>About</h1>
+      <Meta title="About" />
+      <h1>Trial for Next.js</h1>
     </div>
   );
 };
